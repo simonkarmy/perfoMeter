@@ -17,3 +17,5 @@ Then you will simply find the results in your LogCat
 `com.yourcompany.app I/PerfoMeter: cache_big_data took 10 ms`
 
 By that you can find start/end any job, from any place, with any sequence.
+
+More details can be found here: https://link.medium.com/s2PZCGNQ2U
