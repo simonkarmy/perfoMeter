@@ -3,12 +3,14 @@ Very simple tool to check how much you have improved the performance for specifi
 
 It is very simple to use it.
 
-`PerfoMeter.start("cache_big_data")
+```kotlin
+PerfoMeter.start("cache_big_data")
 file.writeBytes(bigString.toByteArray())
 PerfoMeter.stopAndPrint("cache_big_data")
 
 //Or optionally if you want it in another unit
-PerfoMeter.stopAndPrint("cache_big_data", PerfoUnit.NANO)`
+PerfoMeter.stopAndPrint("cache_big_data", PerfoUnit.NANO)
+```
 
 Then you will simply find the results in your LogCat
 
